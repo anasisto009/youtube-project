@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+.A1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.A2 {
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+}
+
+.A3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.A4 {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.A4 input {
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 2px 0 0 2px;
+}
+
+.A4 button {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-left: none;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.A5 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.A5 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.A6 {
+    width: 32px;
+    height: 32px;
+    background-color: #00ff40;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.A7 {
+    display: flex;
+    margin-top: 60px;
+}
+
+.A8 {
+    width: 240px;
+    padding: 20px;
+    background-color: #fff;
+    position: fixed;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+}
+
+.A8 ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.A8 li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.A8 h3 {
+    margin: 20px 0 10px;
+    font-size: 16px;
+}
+
+main {
+    margin-left: 240px;
+    padding: 20px;
+    width: calc(100% - 240px);
+}
+
+.A9 {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.A9 button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.A10 {
+    background-color: #000;
+    color: white;
+}
+
+
+
+.A11 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.A11 p {
+    color: #606060;
+    margin-bottom: 10px;
+}
+
+
+
+.A13 {
+    background-color: #f0f0f0;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.A14 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.A15 {
+    cursor: pointer;
+}
+
+.A16 {
+    background-color: #ddd;
+    height: 150px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.A16 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.A15 p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.A17 {
+    color: #606060;
+    font-size: 12px;
+}
